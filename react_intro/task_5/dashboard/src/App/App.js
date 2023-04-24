@@ -1,6 +1,6 @@
 import './App.css'
-import logo from './logo.jpg';
-import {getFullYear, getFooterCopy} from './utils'
+import logo from '../assets/holberton-logo.jpg';
+import {getFullYear, getFooterCopy} from '../utils/utils'
 
 const App = () =>{
   return(
@@ -20,7 +20,7 @@ const App = () =>{
     </div>
 
     <div className='App-footer'>
-      <p>>Copyright {getFullYear()} - {getFooterCopy(true)}</p>
+      <p>Copyright {getFullYear()} - {getFooterCopy(true)}</p>
     </div>
     </>
   )

@@ -1,6 +1,6 @@
 import './Notifications.css'
-import {getLatestNotification} from './utils'
-import close_icon from './close_icon.png'
+import {getLatestNotification} from '../utils/utils'
+import close_icon from '../assets/close_icon.png'
 import React from 'react'
 
 
