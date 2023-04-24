@@ -1,0 +1,39 @@
+.App-header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: solid 3px #f2254b;
+}
+
+.App-header img {
+    max-width: 200px;
+    max-height: 200px;
+    flex-basis: 40%;
+}
+
+.App-header h1 {
+    color: #f2254b;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.App-body {
+    margin: 30px;
+    font-weight: 400;
+}
+
+.App-footer {
+    border-top: solid 3px #f2254b;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.App-footer p {
+    text-align: center;
+    font-style: italic;
+}
