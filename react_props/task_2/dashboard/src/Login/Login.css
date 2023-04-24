@@ -1,0 +1,10 @@
+.App-body {
+    margin: 30px;
+    font-weight: 400;
+}
+
+.App-body button,
+input {
+    margin-left: 5px;
+    margin-right: 5px;
+}
