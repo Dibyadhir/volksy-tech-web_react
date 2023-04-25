@@ -5,7 +5,6 @@ import CourseListRow from './CourseListRow';
 describe('<CourseListRow />', () => {
   it('renders without crashing', () => {
     const wrapper = shallow(<CourseListRow textFirstCell='test' />);
-    // eslint-disable-next-line jest/valid-expect
     expect(wrapper.exists());
   });
   it('renders one cell', () => {

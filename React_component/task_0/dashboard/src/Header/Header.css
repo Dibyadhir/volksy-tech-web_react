@@ -1,20 +1,16 @@
-.App-header {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    padding-bottom: 8px;
-    margin-bottom: 8px;
-    border-bottom: solid 3px #f2254b;
+.header {
+  display: flex;
+  color: #e0344a;
+  align-items: center;
+  border-bottom: thick solid #e0344a;
+  width: 100%;
+  position: fixed;
 }
 
-.App-header img {
-    max-width: 200px;
-    max-height: 200px;
-    flex-basis: 40%;
+.header img {
+  width: 144px;
 }
 
-.App-header h1 {
-    color: #f2254b;
-    padding-left: 20px;
-    font-size: 30px;
+.header h1 {
+  margin: 0;
 }

@@ -12,10 +12,10 @@ it('renders login', () => {
   expect(wrapper.find('main.login').exists()).toEqual(true);
 });
 
-it('renders login input', () => {
+it('renders login', () => {
   expect(wrapper.find('main.login input')).toHaveLength(2);
 });
 
-it('renders login label', () => {
+it('renders login', () => {
   expect(wrapper.find('main.login label')).toHaveLength(2);
 });
