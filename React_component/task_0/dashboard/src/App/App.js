@@ -9,10 +9,12 @@ import {getLatestNotification} from '../utils/utils'
 import { Component } from 'react'
 
 class App extends Component {
+   constructor(props) {
+    super(props);
+  }
   render(){
   const {isLoggedIn} = this.props
   let display;
-  //console.log(isLoggedIn)
 
   const listCourses = [
     { id: 1, name: 'ES6', credit: 60 },
