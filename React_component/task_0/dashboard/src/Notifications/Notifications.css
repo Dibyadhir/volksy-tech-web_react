@@ -1,0 +1,18 @@
+.menuItem {
+    text-align: right;
+    margin-right: 16px;
+}
+
+.Notifications {
+    border: thin dotted #e0344a;
+    padding: 4px 16px;
+    float: right;
+}
+
+ul li[data-notification-type='urgent'] {
+    color: red;
+}
+
+ul li[data-notification-type='default'] {
+    color: blue;
+}
